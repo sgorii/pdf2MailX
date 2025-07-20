@@ -1,3 +1,7 @@
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-blue?logo=powershell)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?logo=windows)
+![License](https://img.shields.io/github/license/sgorii/pdf2MailX)
+
 ## 📌 Description
 
 `Pdf2MailX.ps1` is a PowerShell script that automates the batch emailing of single-page PDF documents by detecting the recipient's email address directly from each file.
