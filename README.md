@@ -44,6 +44,6 @@ Before running the script, configure:
 You will be prompted to enter your SMTP password. The script will then:
 
     1. Extracts text from each PDF
-    2. Detects and corrects email addresses
+    2. Detects email addresses
     3. Groups and sends emails in batches (default: 6 PDFs per email, can be modified)
     4. Logs the actions and moves sent PDFs to an archive structure
