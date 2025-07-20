@@ -227,7 +227,7 @@ foreach ($pdfFile in $allPdfs) {        # Iterate through each PDF file
 foreach ($email in $emailGroups.Keys) {
     $pdfs = $emailGroups[$email]
     $chunks = @()
-    $lotSize = 6         # Number of PDFs maximum to send per email ; you can adjust this value as needed
+    $lotSize = 6         # Number of maximum PDFs to send per email ; you can adjust this value as needed
     for ($i = 0; $i -lt $pdfs.Count; $i += $lotSize) {
         $end = [Math]::Min($i + $lotSize - 1, $pdfs.Count - 1)
         $chunk = $pdfs[$i..$end]
