@@ -4,7 +4,7 @@
 
 ## 📌 Description
 
-`Pdf2MailX.ps1` is a PowerShell script that automates the batch emailing of PDF documents by detecting the recipient's email address directly from each file.
+`Pdf2MailX.ps1` is a PowerShell script that automates the batch emailing of Tewt-based PDF documents by detecting the recipient's email address directly from each file.
 
 It offers the following features:
 - Extracting email addresses from OCR-processed PDFs using `pdftotext` utility (can be found at https://www.xpdfreader.com) 
