@@ -12,7 +12,7 @@ It offers the following features:
 - Grouping documents by recipient
 - Sending them via SMTP with optional attachments, HTML content, and read receipt requests
 - Archiving all sent documents in structured subfolders (by date and recipient)
-- Generating a session log and visual progress display
+- Generating a session log
 
 
 ## ⚙️ Requirements
